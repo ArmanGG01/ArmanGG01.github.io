@@ -1,10 +1,8 @@
-# Admin Dashboard Designs
+# Responsive Dashboard Design #1
+In this tutorial ([Open in Youtube](https://youtu.be/YJTKlAvbDo4)),  I'm going to show you how to use modern HTML, CSS, and JavaScript to create a completely responsive admin dashboard with light and dark mode theme functionality. We'll be using CSS Variables, CSS Grid, CSS Flexbox, Media queries for our responsive design, and CSS  transitions and animations for some cool animation effects.
 
-Collection of <a href="https://t.me/ForStyle" target="_blank">Arman</a> Text Me To Dashboard Designs Coding Codes!
+# Screenshot
+Here we have project screenshot :
 
-### Tutorial Video's
-
-Find Video's on : <a href="https://t.me/StoreKarman" target="_blank">karman</a> Telegram Channel
-
-We create a project each 3 days with voting on our <a href="https://t.me/ForStyle" target="_blank">Telegram</a> Account
-You can vote for upcoming projects on our Account **community** page :wink:
+![screenshot1](screenshot1.png)
+![screenshot2](screenshot2.png)
