@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .separator {
+            width: 50px;
+            height: 2px;
+            background-color: #333;
+            margin: 20px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: auto; /* Memindahkan ke pojok paling bawah */
+        }
+        /* Tambahkan media query untuk tampilan responsif */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 10px 0;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+            nav li {
+                margin: 5px 0;
+            }
+            .separator {
+                width: 30px;
+            }
+            .content img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+    <title>Karman Store - Toko Online</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 38px;">Selamat Datang di Karman Store</h1>
+        <div class="corner-image top-left"></div>
+        <div class="user-menu">
+    <div class="login-section">
+        <a href="/login">Masuk</a>
+        <p></p>
+    </div>
+    <div class="register-section">
+        <a href="/register" class="register">Daftar Sekarang</a>
+    </div>
+</div>
+
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <div class="separator"></div>
+    
+    <div class="content" style="text-align: center;">
+        <img src="icon.avif" alt="Instagram" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    </div>
+    
+    <footer>
+        <p style="font-size: 14px;">Hak Cipta © 2023 Karman Store</p>
+    </footer>
+</body>
+</html>
